@@ -1,0 +1,8 @@
+﻿@viewModel dotvvm.web.ViewModels.DefaultViewModel, dotvvm.web
+@masterPage Views/MasterPage.dotmaster
+@import dotvvm.web.Resources
+<dot:Content ContentPlaceHolderID="MainContent">
+    <div class="alert alert-info">
+        Welcome to DotVVM, {{value: Username}}
+    </div>
+</dot:Content>
